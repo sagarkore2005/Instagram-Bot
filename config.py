@@ -10,7 +10,7 @@ class Config:
 ")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "7478627729:AAEueltiQmAjo9G1bwUSCD8y8FInRvUYVS0") 
     USER = os.environ.get("INSTAGRAM_USERNAME", "sagarfirst_bot")
-    OWNER = os.environ.get("OWNER_ID", "")
+    OWNER = os.environ.get("OWNER_ID", "6212107740")
     INSTA_SESSIONFILE_ID = os.environ.get("INSTA_SESSIONFILE_ID", None)
     S = "0"
     STATUS = set(int(x) for x in (S).split())
